@@ -8,8 +8,7 @@ from scipy.special import binom
 import scipy.stats as ss
 
 
-# let's construct a binomial to compare H/T
-
+# code stolen from web - basis for excursion
 # powerset recipe from itertools page
 def powerset(iterable):
     "powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
