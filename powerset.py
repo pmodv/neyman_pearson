@@ -11,7 +11,7 @@ def powerSet(input):
         return [[]];
     
     # if not at a leaf, trim and recurse
-    
+    # inspired by Jerry Cain
     # recursion is illustrated as follows:
     # S = {1,2,3}
     # S_trim = S without first element:
