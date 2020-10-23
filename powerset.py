@@ -11,7 +11,6 @@ def powerSet(input):
         return [[]];
     
     # if not at a leaf, trim and recurse
-    # inspired by Scheme example by Jerry Cain
     
     # recursion is illustrated as follows:
     # S = {1,2,3}
